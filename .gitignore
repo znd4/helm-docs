@@ -5,3 +5,7 @@ dist
 *.iml
 .vscode/
 vendor/
+
+# pre-commit language: golang state files
+.install_state_v?
+golangenv-*
